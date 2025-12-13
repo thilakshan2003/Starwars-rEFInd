@@ -14,11 +14,10 @@ Follow these steps on a Linux system (like Ubuntu) to install rEFInd.
 
 1.  **Update and Install rEFInd:**
     ```bash
-    sudo apt update
     sudo apt install refind
     ```
 2.  **Run the Installation Script:**
-    This command copies the necessary files to your EFI System Partition (ESP) and creates the NVRAM boot entry.
+    This command copies the necessary files to your EFI System Partition and creates the NVRAM boot entry.
     ```bash
     sudo refind-install
     ```
@@ -41,11 +40,6 @@ We will refer to this path as `$REFIND_DIR`.
 
 Navigate to the `themes` directory inside your rEFInd installation and clone this repository.
 
-```bash
-cd $REFIND_DIR/themes
-git clone [https://github.com/thilakshan2003/Starwars-rEFInd](https://github.com/thilakshan2003/Starwars-rEFInd)
-```
----
 ## Sources
 
 * **Background Image (Anakin Skywalker):** The high-resolution background image used for the theme.
