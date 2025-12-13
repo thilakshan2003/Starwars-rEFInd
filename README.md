@@ -49,7 +49,8 @@ git clone [https://github.com/thilakshan2003/Starwars-rEFInd](https://github.com
 ## Sources
 
 * **Background Image (Anakin Skywalker):** The high-resolution background image used for the theme.
-    * **Link:** `https://images.hdqwalls.com/download/anakin-skywalker-3r-2560x1024.jpg`
+    * **Link:** [Anakin Skywalker Background Image](https://images.hdqwalls.com/download/anakin-skywalker-3r-2560x1024.jpg)
 * **Icons:** The base icons used for boot entries (Windows, Ubuntu, etc.) are sourced from the community.
-    * **Link:** `https://github.com/SLywnow/hi-themes-refind`
+    * **Link:** [SLywnow rEFInd Icon Themes](https://github.com/SLywnow/hi-themes-refind)
+
 
