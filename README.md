@@ -44,7 +44,7 @@ Navigate to the `themes` directory inside your rEFInd installation and clone thi
 ```bash
 cd $REFIND_DIR/themes
 git clone [https://github.com/thilakshan2003/Starwars-rEFInd](https://github.com/thilakshan2003/Starwars-rEFInd)
-
+```
 ---
 ## Sources
 
