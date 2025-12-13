@@ -1,6 +1,6 @@
-# 🌌 Star Wars (Anakin) Theme for rEFInd
+# Star Wars Theme for rEFInd
 
-A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, featuring Anakin Skywalker and a galactic aesthetic.
+A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, where you can choose between your Light side and your Dark side (Perfect for Dual booted systems!).
 
 ![Preview of the Star Wars Anakin rEFInd theme, showing boot options over a detailed space background.](preview.jpeg)
 
@@ -44,3 +44,12 @@ Navigate to the `themes` directory inside your rEFInd installation and clone thi
 ```bash
 cd $REFIND_DIR/themes
 git clone [https://github.com/thilakshan2003/Starwars-rEFInd](https://github.com/thilakshan2003/Starwars-rEFInd)
+
+---
+## Sources
+
+* **Background Image (Anakin Skywalker):** The high-resolution background image used for the theme.
+    * **Link:** `https://images.hdqwalls.com/download/anakin-skywalker-3r-2560x1024.jpg`
+* **Icons:** The base icons used for boot entries (Windows, Ubuntu, etc.) are sourced from the community.
+    * **Link:** `https://github.com/SLywnow/hi-themes-refind`
+
