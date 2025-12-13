@@ -1,21 +1,47 @@
-# Matrix-rEFInd
+# 🌌 Star Wars (Anakin) Theme for rEFInd
 
-A Matrix theme for [rEFInd](https://rodsbooks.com/refind/).
+A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, featuring Anakin Skywalker and a galactic aesthetic.
 
-![Preview](preview.jpg)
+![Preview of the Star Wars Anakin rEFInd theme, showing boot options over a detailed space background.](preview.jpg)
 
-### Usage
+## 💻 Comprehensive Setup Guide
 
-Clone this repository into a `themes` directory located inside the refind EFI directory
-(usually `/boot/EFI/refind`)
+This section provides instructions for both installing rEFInd and applying this theme.
 
-Then add `include themes/Matrix-rEFInd/theme.conf` at the end of the refind.conf.
+### Part 1: Installing the rEFInd Boot Manager (If needed)
 
-To hide unwanted options simply press delete while the icon is selected.
-To restore hidden icons use the lower right button.
+Follow these steps on a Linux system (like Ubuntu) to install rEFInd.
 
-### Sources
+1.  **Update and Install rEFInd:**
+    ```bash
+    sudo apt update
+    sudo apt install refind
+    ```
+2.  **Run the Installation Script:**
+    This command copies the necessary files to your EFI System Partition (ESP) and creates the NVRAM boot entry.
+    ```bash
+    sudo refind-install
+    ```
+3.  **Verify and Reboot:**
+    Check your boot order to ensure rEFInd is the default. Then, reboot your system.
 
-The original image can be found here: https://i.imgur.com/c1Z62Q2.jpg.
+### Part 2: Applying the Star Wars Theme
 
-The icons can be found here: https://github.com/SLywnow/hi-themes-refind.
+After rEFInd is installed, you can apply the theme by moving the files into the correct location and updating the configuration.
+
+#### 1. Locate the rEFInd EFI Directory
+
+Identify the location of your rEFInd installation. This is typically mounted at:
+
+* **Linux:** `/boot/efi/EFI/refind/`
+
+We will refer to this path as `$REFIND_DIR`.
+
+#### 2. Clone the Repository
+
+Navigate to the `themes` directory inside your rEFInd installation and clone this repository.
+
+```bash
+cd $REFIND_DIR/themes
+# Clone the repository (it will create a folder named 'Starwars-rEFInd')
+git clone [https://github.com/thilakshan2003/Starwars-rEFInd](https://github.com/thilakshan2003/Starwars-rEFInd)
