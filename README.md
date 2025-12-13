@@ -2,7 +2,7 @@
 
 A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, featuring Anakin Skywalker and a galactic aesthetic.
 
-![Preview of the Star Wars Anakin rEFInd theme, showing boot options over a detailed space background.](preview.jpg)
+![Preview of the Star Wars Anakin rEFInd theme, showing boot options over a detailed space background.](preview.jpeg)
 
 ## 💻 Comprehensive Setup Guide
 
