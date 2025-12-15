@@ -1,6 +1,6 @@
-# Star Wars Theme for rEFInd
+# Star Wars Theme for rEFInd Bootloader
 
-A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, where you can choose between your Light side and your Dark side (Perfect for Dual booted systems!).
+A high-resolution theme for the **[rEFInd Boot Manager](https://rodsbooks.com/refind/)**, where you can choose between your Light side and your Dark side (Perfect for Dual booted systems).
 
 ![Preview of the Star Wars Anakin rEFInd theme, showing boot options over a detailed space background.](preview.jpeg)
 
